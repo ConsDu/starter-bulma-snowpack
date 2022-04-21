@@ -1,0 +1,32 @@
+// Import a Google Font
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
+
+// Set your custom colors
+$custom-primary: hsl(171, 100%, 41%);
+$custom-info: hsl(207, 61%, 53%);
+$custom-success: hsl(153, 53%, 53%);
+$custom-warning: hsl(44, 100%, 77%);
+$custom-danger: hsl(348, 86%, 61%);
+$custom-link: hsl(229, 53%, 53%);
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$primary: $custom-primary;
+$info: $custom-info;
+$success: $custom-success;
+$warning: $custom-warning;
+$danger: $custom-danger;
+$link: $custom-link;
+
+// Update some of Bulma's component variables
+// $control-border-width: 2px;
+// $input-background-color: $beige-lighter;
+// $input-border-color: transparent;
+// $input-shadow: none;
+
+// Import the rest of Bulma
+@import "../starter-bulma-snowpack-main/node_modules/bulma/bulma.sass";
+
+h1 {
+  text-decoration: line-through;
+}
