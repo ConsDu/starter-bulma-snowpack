@@ -1,0 +1,17 @@
+{
+  "mount": {
+    "src": "/"
+  },
+  "plugins": [
+    ["@snowpack/plugin-webpack", {}],
+    ["@snowpack/plugin-postcss"],
+    [
+      "@snowpack/plugin-sass",
+      {
+        "compilerOptions": {
+          "style": "compressed"
+        }
+      }
+    ]
+  ]
+}
